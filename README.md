@@ -4,6 +4,8 @@ Unofficial implementation of the paper "A new attention-based CNN approach for c
 This project implements a deep learning model for crop-type classification using Sentinel-2 satellite images. The model is built with TensorFlow Keras and incorporates advanced architectural components such as Convolutional Block Attention Modules (CBAM) and Residual Units.
 
 **Convolutional Block Attention Module (CBAM)**: CBAM is a type of attention mechanism that can be integrated into any CNN architecture seamlessly. CBAM computes attention maps along two separate dimensions, channel and spatial, then performs feature refinement accordingly. This allows the model to focus on more informative features for the task of crop type classification.
+Here You can see the Architectures of CBAM and its sub-modules: (a) CBAM; (b) channel attention module; (c)
+![image](https://github.com/Hooman1996/Sentinel2_CBAM/assets/67710406/99ac6c7a-8949-42e3-bac7-26f151c23dcc)
 
 **Residual Units**: The model also uses Residual Units and ResBlocks, a key component of ResNet architecture, which allows the training of deeper networks by providing shortcut connections that bypass convolutional layers. These connections mitigate the problem of vanishing gradients, enabling the model to learn more complex representations.
 
